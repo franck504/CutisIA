@@ -79,11 +79,12 @@ Cette étape filtre les images floues, supprime les doublons et redimensionne le
 Entraînement du modèle optimisé pour mobile (MobileNetV3) et conversion automatique au format TensorFlow Lite (`.tflite`).
 
 ```python
+# Lancement de l'entraînement
+# --epochs 20 (vous pouvez augmenter ce chiffre pour un meilleur score)
 !python scripts/03_train_model.py \
     --data_dir "/content/datasets_processed" \
-    --epochs 50 \
-    --batch_size 32 \
-    --model_type "MobileNetV3"
+    --epochs 20 \
+    --batch_size 32
 ```
 
 ---
@@ -95,9 +96,9 @@ Sauvegarde du modèle final sur votre Google Drive pour une utilisation permanen
 # Créer un dossier sur le Drive s'il n'existe pas
 !mkdir -p "/content/drive/MyDrive/CutisIA_Models"
 
-# Copier le modèle converti
-!cp /content/CutisIA/models/modele_cutanee.tflite "/content/drive/MyDrive/CutisIA_Models/modele_cutanee.tflite"
+# Copier le modèle converti (.tflite)
+!cp /content/CutisIA/models/modele_cutanee.tflite "/content/drive/MyDrive/CutisIA_Models/cutis_ia_model.tflite"
 
-# (Optionnel) Sauvegarder les graphiques de performances
+# Sauvegarder les graphiques de performances (Loss/Accuracy)
 !cp /content/CutisIA/logs/*.png "/content/drive/MyDrive/CutisIA_Models/"
 ```
