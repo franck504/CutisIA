@@ -61,8 +61,8 @@ def train_model(data_dir, epochs=20, fine_tune_epochs=10, batch_size=32):
         layers.Input(shape=(224, 224, 3)),
         base_model,
         layers.GlobalAveragePooling2D(),
-        layers.Dropout(0.3),
-        layers.Dense(num_classes, activation='softmax', dtype='float32') # Output MUST be float32
+        layers.Dropout(0.5), # Increased from 0.3 to 0.5 to fight overfitting
+        layers.Dense(num_classes, activation='softmax', dtype='float32')
     ])
 
     # 3. Phase 1: Warm-up
@@ -76,9 +76,14 @@ def train_model(data_dir, epochs=20, fine_tune_epochs=10, batch_size=32):
         'models/best_model_warmup.keras', monitor='val_accuracy', save_best_only=True, mode='max'
     )
 
+    # Callbacks for better convergence
+    lr_reducer = tf.keras.callbacks.ReduceLROnPlateau(
+        monitor='val_loss', factor=0.5, patience=3, min_lr=1e-6
+    )
+
     history = model.fit(
         train_ds, validation_data=val_ds, epochs=epochs, 
-        callbacks=[checkpoint], verbose=1
+        callbacks=[checkpoint, lr_reducer], verbose=1
     )
 
     # 4. Phase 2: Fine-tuning
@@ -115,19 +120,39 @@ def train_model(data_dir, epochs=20, fine_tune_epochs=10, batch_size=32):
     plt.legend()
     plt.savefig('logs/training_history_ft.png')
 
-    # 6. TFLite Conversion
-    print("\nConverting optimized model to TFLite...")
+    # 6. TFLite Conversion (Robust with SELECT_TF_OPS)
+    print("\nConverting model to TFLite (Compatibility Mode)...")
+    # In some versions, reloading the model helps clean the graph
     best_model = tf.keras.models.load_model('models/best_model_ft.keras')
+    
+    # Use from_keras_model but with explicit support for all TF ops as backup
     converter = tf.lite.TFLiteConverter.from_keras_model(best_model)
     
-    # Optimisations standard pour TFLite (aucun Select TF Ops requis désormais)
+    # Fix for 'Relu6' or 'AddV2' missing errors
+    converter.target_spec.supported_ops = [
+        tf.lite.OpsSet.TFLITE_BUILTINS,
+        tf.lite.OpsSet.SELECT_TF_OPS 
+    ]
+    # Experimental: lowers some common TF ops to TFLite equivalents
+    converter._experimental_lower_tensor_list_ops = True
+    
     converter.optimizations = [tf.lite.Optimize.DEFAULT]
-    tflite_model = converter.convert()
-
-    with open('models/modele_cutanee_optimise.tflite', 'wb') as f:
-        f.write(tflite_model)
-    print("Optimization complete: models/modele_cutanee_optimise.tflite")
-    print("Optimization complete: models/modele_cutanee_optimise.tflite")
+    
+    try:
+        tflite_model = converter.convert()
+        with open('models/modele_cutanee_optimise.tflite', 'wb') as f:
+            f.write(tflite_model)
+        print("Success: models/modele_cutanee_optimise.tflite generated.")
+    except Exception as e:
+        print(f"Error during TFLite conversion: {e}")
+        print("Attempting SavedModel fallback...")
+        model.export('models/temporary_saved_model')
+        converter = tf.lite.TFLiteConverter.from_saved_model('models/temporary_saved_model')
+        converter.target_spec.supported_ops = [tf.lite.OpsSet.TFLITE_BUILTINS, tf.lite.OpsSet.SELECT_TF_OPS]
+        tflite_model = converter.convert()
+        with open('models/modele_cutanee_optimise.tflite', 'wb') as f:
+            f.write(tflite_model)
+        print("Success (Fallback): TFLite model generated via SavedModel.")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Optimized Training with Fine-Tuning")

@@ -81,25 +81,37 @@ Cette étape filtre les images floues, supprime les doublons et redimensionne le
 
 ---
 
-## Étape 3 : Entraînement Haute Précision (Fine-tuning)
-L'entraînement se fait désormais en **deux phases automatiques** pour atteindre une précision maximale (80-90%+) :
-1. **Phase 1 (Warm-up)** : Entraîne uniquement la couche finale pour apprendre les classes.
-2. **Phase 2 (Fine-tuning)** : Débloque les couches profondes de MobileNet pour affiner la détection de textures de peau.
+### 🚀 Étape 3 : Entraînement Optimisé (Version 2)
+On relance l'entraînement avec des corrections pour l'Accuracy et la conversion TFLite.
+
+**IMPORTANT** : Vérifiez que votre dossier de données est bien `/content/datasets_processed`.
 
 ```python
-# Lancement de l'entraînement optimisé
-# --epochs 15 (Warm-up)
-# --ft_epochs 10 (Fine-tuning)
-!python scripts/03_train_model.py \
-    --data_dir "/content/datasets_processed" \
-    --epochs 15 \
-    --ft_epochs 10 \
-    --batch_size 32
+# 1. Vérifier que les dossiers existent 
+import os
+if not os.path.exists('/content/datasets_processed'):
+    print("⚠️ ERREUR : Le dossier /content/datasets_processed est introuvable.")
+    print("Assurez-vous d'avoir bien exécuté l'Étape 2 !")
+
+# 2. Lancer l'entraînement (V2 avec Dropout 0.5 et Fix TFLite)
+!python /content/CutisIA/scripts/03_train_model.py \
+    --data_dir /content/datasets_processed \
+    --epochs 20 \
+    --ft_epochs 15
 ```
+
+**Nouveautés de cette version :**
+- **Dropout augmenté (0.5)** : Pour éviter que le modèle n'apprenne par cœur les images (Overfitting).
+- **LR Plateau** : Le modèle réduit sa vitesse d'apprentissage s'il stagne.
+- **Fix TFLite** : Utilisation du mode `SELECT_TF_OPS` pour garantir la compatibilité avec Google Colab (Python 3.12).
+
+### 📱 Étape 4 : Récupérer le modèle pour Flutter
+Une fois l'entraînement fini, téléchargez le fichier généré :
+`models/modele_cutanee_optimise.tflite`
 
 ---
 
-## Étape 4 : Sauvegarde des Résultats
+## Étape 5 : Sauvegarde des Résultats
 Sauvegarde du modèle final sur votre Google Drive pour une utilisation permanente.
 
 ```bash
