@@ -51,11 +51,18 @@ Utilisez cette option pour copier les images dans la mémoire de Colab. C'est re
 ---
 
 ## Étape 2 : Nettoyage et Pipeline (OpenCV)
-Cette étape filtre les images floues, supprime les doublons et redimensionne les images en **224x224** pour l'IA.
+Cette étape filtre les images floues, supprime les doublons et redimensionne les images en **224x224**.
 
+### Cas 1 : Si vous avez utilisé l'Option A (Direct Drive)
 ```python
-# Lancement du nettoyage
-# --blur_threshold 100.0 (plus le chiffre est bas, plus c'est sévère sur le flou)
+!python scripts/02_data_pipeline.py \
+    --input_dir "/content/drive/MyDrive/datasets" \
+    --output_dir "/content/datasets_processed" \
+    --blur_threshold 100.0
+```
+
+### Cas 2 : Si vous avez utilisé l'Option B (Copie Locale)
+```python
 !python scripts/02_data_pipeline.py \
     --input_dir "/content/datasets" \
     --output_dir "/content/datasets_processed" \
@@ -63,8 +70,8 @@ Cette étape filtre les images floues, supprime les doublons et redimensionne le
 ```
 
 > [!TIP]
-> Si vous travaillez sur le Drive (Option A), remplacez `--input_dir` par `"/content/drive/MyDrive/datasets"`.
-> Les images floues détectées sont copiées dans `datasets_processed/rejected/` pour vérification.
+> Les images traitées sont sauvegardées dans `/content/datasets_processed`.
+> Les images floues rejetées sont dans `/content/datasets_processed/rejected/`.
 
 ---
 

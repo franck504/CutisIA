@@ -35,8 +35,10 @@ def is_blurry(image_path, threshold=100.0):
 
 def process_dataset(input_dir, output_dir, blur_threshold=100.0, target_size=(224, 224)):
     """Main pipeline to clean and prepare images."""
-    if not os.path.exists(output_dir):
-        os.makedirs(output_dir)
+    if not os.path.exists(input_dir):
+        print(f"Error: Input directory '{input_dir}' does not exist.")
+        print("Please check your --input_dir path (e.g., '/content/datasets' or '/content/drive/MyDrive/datasets')")
+        return
 
     # Subdirectories (classes)
     classes = [d for d in os.listdir(input_dir) if os.path.isdir(os.path.join(input_dir, d)) and not d.startswith('.')]
