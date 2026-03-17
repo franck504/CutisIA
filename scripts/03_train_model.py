@@ -5,129 +5,136 @@ import tensorflow as tf
 from tensorflow.keras import layers, models
 from tensorflow.keras.applications import MobileNetV3Small
 
-def train_model(data_dir, epochs=20, batch_size=32):
+def train_model(data_dir, epochs=20, fine_tune_epochs=10, batch_size=32):
     """
-    Trains a MobileNetV3 model with optimized tf.data pipeline.
+    Two-stage training: 
+    1. Warm-up (Frozen base)
+    2. Fine-tuning (Unfrozen top layers)
     """
-    # 0. Hardware Detection & Optimization
+    # 0. Optimization & Mixed Precision
     device = "GPU" if tf.config.list_physical_devices('GPU') else "CPU"
     print(f"\n--- Using Hardware: {device} ---")
     
-    # Enable mixed precision for GPU if available (Modern GPUs)
     if device == "GPU":
-        # Note: MobileNetV3 might not benefit much from mixed precision on older GPUs
-        # but it's good practice for modern Colab T4/L4
-        try:
-            tf.keras.mixed_precision.set_global_policy('mixed_float16')
-            print("Mixed precision enabled.")
-        except:
-            pass
+        from tensorflow.keras import mixed_precision
+        policy = mixed_precision.Policy('mixed_float16')
+        mixed_precision.set_global_policy(policy)
+        print("Mixed precision enabled (float16).")
 
-    # 1. Dataset Loading (Modern API)
+    # 1. Dataset Loading
     print("\nLoading datasets...")
     train_ds = tf.keras.utils.image_dataset_from_directory(
-        data_dir,
-        validation_split=0.2,
-        subset="training",
-        seed=123,
-        image_size=(224, 224),
-        batch_size=batch_size,
-        label_mode='categorical'
+        data_dir, validation_split=0.2, subset="training", seed=123,
+        image_size=(224, 224), batch_size=batch_size, label_mode='categorical'
     )
-
     val_ds = tf.keras.utils.image_dataset_from_directory(
-        data_dir,
-        validation_split=0.2,
-        subset="validation",
-        seed=123,
-        image_size=(224, 224),
-        batch_size=batch_size,
-        label_mode='categorical'
+        data_dir, validation_split=0.2, subset="validation", seed=123,
+        image_size=(224, 224), batch_size=batch_size, label_mode='categorical'
     )
 
     class_names = train_ds.class_names
     num_classes = len(class_names)
-    print(f"Detected classes: {class_names}")
-
-    # 2. Performance Optimization (Prefetch & Cache)
-    # This maximizes GPU usage by preparing data in advance
-    AUTOTUNE = tf.data.AUTOTUNE
-    train_ds = train_ds.cache().shuffle(1000).prefetch(buffer_size=AUTOTUNE)
-    val_ds = val_ds.cache().prefetch(buffer_size=AUTOTUNE)
-
-    # 3. Data Augmentation Layer (runs on GPU)
-    data_augmentation = models.Sequential([
-        layers.RandomFlip("horizontal_and_vertical"),
-        layers.RandomRotation(0.2),
-        layers.RandomZoom(0.2),
+    
+    # Data Augmentation (Moved here to keep the model TFLite-compatible)
+    augmentation = models.Sequential([
+        layers.RandomFlip("horizontal"),
+        layers.RandomRotation(0.1),
+        layers.RandomZoom(0.1),
     ])
 
-    # 4. Model Creation (Transfer Learning)
+    AUTOTUNE = tf.data.AUTOTUNE
+    def prepare(ds, augment=False):
+        # Rescale here
+        ds = ds.map(lambda x, y: (x / 255.0, y), num_parallel_calls=AUTOTUNE)
+        if augment:
+            ds = ds.map(lambda x, y: (augmentation(x, training=True), y), num_parallel_calls=AUTOTUNE)
+        return ds.cache().prefetch(buffer_size=AUTOTUNE)
+
+    train_ds = prepare(train_ds.shuffle(1000), augment=True)
+    val_ds = prepare(val_ds)
+
+    # 2. Model Creation (Clean for TFLite)
     base_model = MobileNetV3Small(input_shape=(224, 224, 3), include_top=False, weights='imagenet')
-    base_model.trainable = False
+    base_model.trainable = False 
 
     model = models.Sequential([
         layers.Input(shape=(224, 224, 3)),
-        data_augmentation,
-        layers.Rescaling(1./255),
         base_model,
         layers.GlobalAveragePooling2D(),
-        layers.Dropout(0.2),
-        layers.Dense(num_classes, activation='softmax', dtype='float32') # Ensure float32 for output
+        layers.Dropout(0.3),
+        layers.Dense(num_classes, activation='softmax', dtype='float32') # Output MUST be float32
     ])
 
-    model.compile(
-        optimizer='adam',
-        loss='categorical_crossentropy',
-        metrics=['accuracy']
-    )
-
-    # 5. Training Callbacks
+    # 3. Phase 1: Warm-up
+    print(f"\n--- Phase 1: Warm-up ({epochs} epochs) ---")
+    model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
+    
     os.makedirs('models', exist_ok=True)
     os.makedirs('logs', exist_ok=True)
     
     checkpoint = tf.keras.callbacks.ModelCheckpoint(
-        'models/best_model.keras', monitor='val_accuracy', save_best_only=True, mode='max'
+        'models/best_model_warmup.keras', monitor='val_accuracy', save_best_only=True, mode='max'
     )
-    early_stop = tf.keras.callbacks.EarlyStopping(monitor='val_loss', patience=5)
 
-    print("\nStarting training (with percentage progress)...")
     history = model.fit(
-        train_ds,
-        validation_data=val_ds,
-        epochs=epochs,
-        callbacks=[checkpoint, early_stop],
-        verbose=1 # Ensure progress bar is visible
+        train_ds, validation_data=val_ds, epochs=epochs, 
+        callbacks=[checkpoint], verbose=1
     )
 
-    # 6. Save Plots
-    plt.figure(figsize=(12, 4))
-    plt.subplot(1, 2, 1)
-    plt.plot(history.history['accuracy'], label='train')
-    plt.plot(history.history['val_accuracy'], label='val')
-    plt.title('Accuracy')
-    plt.subplot(1, 2, 2)
-    plt.plot(history.history['loss'], label='train')
-    plt.plot(history.history['val_loss'], label='val')
-    plt.title('Loss')
-    plt.savefig('logs/training_history.png')
-    print("\nTraining history plot saved to logs/training_history.png")
+    # 4. Phase 2: Fine-tuning
+    print(f"\n--- Phase 2: Fine-tuning ({fine_tune_epochs} epochs) ---")
+    base_model.trainable = True
+    
+    model.compile(
+        optimizer=tf.keras.optimizers.Adam(1e-5), 
+        loss='categorical_crossentropy', 
+        metrics=['accuracy']
+    )
 
-    # 7. TFLite Conversion
-    print("Converting best model to TFLite...")
-    best_model = tf.keras.models.load_model('models/best_model.keras')
+    checkpoint_ft = tf.keras.callbacks.ModelCheckpoint(
+        'models/best_model_ft.keras', monitor='val_accuracy', save_best_only=True, mode='max'
+    )
+
+    history_ft = model.fit(
+        train_ds, validation_data=val_ds, 
+        epochs=epochs + fine_tune_epochs,
+        initial_epoch=history.epoch[-1],
+        callbacks=[checkpoint_ft],
+        verbose=1
+    )
+
+    # 5. Save Plots
+    acc = history.history['accuracy'] + history_ft.history['accuracy']
+    val_acc = history.history['val_accuracy'] + history_ft.history['val_accuracy']
+    plt.figure(figsize=(8, 8))
+    plt.subplot(2, 1, 1)
+    plt.plot(acc, label='Training Accuracy')
+    plt.plot(val_acc, label='Validation Accuracy')
+    plt.plot([epochs-1, epochs-1], plt.ylim(), label='Start Fine Tuning')
+    plt.title('Training & Validation Accuracy')
+    plt.legend()
+    plt.savefig('logs/training_history_ft.png')
+
+    # 6. TFLite Conversion
+    print("\nConverting optimized model to TFLite...")
+    best_model = tf.keras.models.load_model('models/best_model_ft.keras')
     converter = tf.lite.TFLiteConverter.from_keras_model(best_model)
+    
+    # Optimisations standard pour TFLite (aucun Select TF Ops requis désormais)
+    converter.optimizations = [tf.lite.Optimize.DEFAULT]
     tflite_model = converter.convert()
 
-    with open('models/modele_cutanee.tflite', 'wb') as f:
+    with open('models/modele_cutanee_optimise.tflite', 'wb') as f:
         f.write(tflite_model)
-    print("Model converted and saved to models/modele_cutanee.tflite")
+    print("Optimization complete: models/modele_cutanee_optimise.tflite")
+    print("Optimization complete: models/modele_cutanee_optimise.tflite")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Optimized Training for Colab")
+    parser = argparse.ArgumentParser(description="Optimized Training with Fine-Tuning")
     parser.add_argument("--data_dir", type=str, required=True)
-    parser.add_argument("--epochs", type=int, default=20)
+    parser.add_argument("--epochs", type=int, default=15, help="Warm-up epochs")
+    parser.add_argument("--ft_epochs", type=int, default=10, help="Fine-tuning epochs")
     parser.add_argument("--batch_size", type=int, default=32)
     
     args = parser.parse_args()
-    train_model(args.data_dir, args.epochs, args.batch_size)
+    train_model(args.data_dir, args.epochs, args.ft_epochs, args.batch_size)

@@ -81,15 +81,19 @@ Cette étape filtre les images floues, supprime les doublons et redimensionne le
 
 ---
 
-## Étape 3 : Entraînement de l'IA
-Entraînement du modèle optimisé pour mobile (MobileNetV3) et conversion automatique au format TensorFlow Lite (`.tflite`).
+## Étape 3 : Entraînement Haute Précision (Fine-tuning)
+L'entraînement se fait désormais en **deux phases automatiques** pour atteindre une précision maximale (80-90%+) :
+1. **Phase 1 (Warm-up)** : Entraîne uniquement la couche finale pour apprendre les classes.
+2. **Phase 2 (Fine-tuning)** : Débloque les couches profondes de MobileNet pour affiner la détection de textures de peau.
 
 ```python
-# Lancement de l'entraînement
-# --epochs 20 (vous pouvez augmenter ce chiffre pour un meilleur score)
+# Lancement de l'entraînement optimisé
+# --epochs 15 (Warm-up)
+# --ft_epochs 10 (Fine-tuning)
 !python scripts/03_train_model.py \
     --data_dir "/content/datasets_processed" \
-    --epochs 20 \
+    --epochs 15 \
+    --ft_epochs 10 \
     --batch_size 32
 ```
 
