@@ -52,8 +52,9 @@ def process_dataset(input_dir, output_dir, blur_threshold=100.0, target_size=(22
         cls_output = os.path.join(output_dir, cls)
         os.makedirs(cls_output, exist_ok=True)
         
-        # Folder for rejected images (optional check)
-        cls_rejected = os.path.join(output_dir, "rejected", cls)
+        # Folder for rejected images (Sibling of output_dir to avoid being picked up as a class)
+        parent_dir = os.path.dirname(os.path.abspath(output_dir))
+        cls_rejected = os.path.join(parent_dir, "rejected", cls)
         os.makedirs(cls_rejected, exist_ok=True)
 
         images = [f for f in os.listdir(cls_input) if os.path.isfile(os.path.join(cls_input, f))]

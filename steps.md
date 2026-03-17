@@ -53,8 +53,14 @@ Utilisez cette option pour copier les images dans la mémoire de Colab. C'est re
 ## Étape 2 : Nettoyage et Pipeline (OpenCV)
 Cette étape filtre les images floues, supprime les doublons et redimensionne les images en **224x224**.
 
+> [!IMPORTANT]
+> Si vous aviez déjà lancé cette étape, veuillez **supprimer le dossier `datasets_processed`** et relancer la commande ci-dessous. 
+> J'ai mis à jour le script pour sortir le dossier `rejected` du chemin d'entraînement, ce qui évitera des erreurs.
+
 ### Cas 1 : Si vous avez utilisé l'Option A (Direct Drive)
 ```python
+# Supprimer l'ancien dossier si nécessaire
+!rm -rf /content/datasets_processed
 !python scripts/02_data_pipeline.py \
     --input_dir "/content/drive/MyDrive/datasets" \
     --output_dir "/content/datasets_processed" \
