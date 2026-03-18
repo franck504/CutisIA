@@ -1,0 +1,1104 @@
+[ +100 ms] executing: uname -m
+[  +11 ms] Exit code 0 from: uname -m
+[        ] x86_64
+[  +16 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[   +2 ms] executing: [/home/franck/sdk/flutter/] git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[   +9 ms] Exit code 0 from: git -c log.showSignature=false log HEAD -n 1 --pretty=format:%ad --date=iso
+[        ] 2026-02-18 13:54:59 -0800
+[  +36 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[ +109 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +3 ms] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[   +4 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[ +123 ms] Skipping pub get: version match.
+[ +122 ms] Found plugin tflite_v2 at /home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/
+[  +21 ms] Found plugin image_picker at /home/franck/.pub-cache/hosted/pub.dev/image_picker-1.2.1/
+[   +7 ms] Found plugin image_picker_windows at /home/franck/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.2/
+[  +29 ms] Found plugin file_selector_windows at /home/franck/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+5/
+[   +7 ms] Found plugin image_picker_macos at /home/franck/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.2+1/
+[  +21 ms] Found plugin file_selector_macos at /home/franck/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.5/
+[   +5 ms] Found plugin image_picker_linux at /home/franck/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.2/
+[   +6 ms] Found plugin file_selector_linux at /home/franck/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.4/
+[   +6 ms] Found plugin image_picker_ios at /home/franck/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.13+6/
+[   +4 ms] Found plugin image_picker_for_web at /home/franck/.pub-cache/hosted/pub.dev/image_picker_for_web-3.1.1/
+[  +11 ms] Found plugin image_picker_android at /home/franck/.pub-cache/hosted/pub.dev/image_picker_android-0.8.13+14/
+[   +3 ms] Found plugin flutter_plugin_android_lifecycle at /home/franck/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33/
+[  +16 ms] Found plugin path_provider at /home/franck/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[   +5 ms] Found plugin path_provider_windows at /home/franck/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[  +12 ms] Found plugin path_provider_linux at /home/franck/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[   +5 ms] Found plugin path_provider_foundation at /home/franck/.pub-cache/hosted/pub.dev/path_provider_foundation-2.6.0/
+[  +35 ms] Found plugin path_provider_android at /home/franck/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[ +131 ms] Found plugin tflite_v2 at /home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/
+[   +7 ms] Found plugin image_picker at /home/franck/.pub-cache/hosted/pub.dev/image_picker-1.2.1/
+[   +3 ms] Found plugin image_picker_windows at /home/franck/.pub-cache/hosted/pub.dev/image_picker_windows-0.2.2/
+[  +15 ms] Found plugin file_selector_windows at /home/franck/.pub-cache/hosted/pub.dev/file_selector_windows-0.9.3+5/
+[   +3 ms] Found plugin image_picker_macos at /home/franck/.pub-cache/hosted/pub.dev/image_picker_macos-0.2.2+1/
+[   +2 ms] Found plugin file_selector_macos at /home/franck/.pub-cache/hosted/pub.dev/file_selector_macos-0.9.5/
+[   +9 ms] Found plugin image_picker_linux at /home/franck/.pub-cache/hosted/pub.dev/image_picker_linux-0.2.2/
+[   +4 ms] Found plugin file_selector_linux at /home/franck/.pub-cache/hosted/pub.dev/file_selector_linux-0.9.4/
+[   +2 ms] Found plugin image_picker_ios at /home/franck/.pub-cache/hosted/pub.dev/image_picker_ios-0.8.13+6/
+[   +3 ms] Found plugin image_picker_for_web at /home/franck/.pub-cache/hosted/pub.dev/image_picker_for_web-3.1.1/
+[   +7 ms] Found plugin image_picker_android at /home/franck/.pub-cache/hosted/pub.dev/image_picker_android-0.8.13+14/
+[   +2 ms] Found plugin flutter_plugin_android_lifecycle at /home/franck/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33/
+[   +5 ms] Found plugin path_provider at /home/franck/.pub-cache/hosted/pub.dev/path_provider-2.1.5/
+[   +3 ms] Found plugin path_provider_windows at /home/franck/.pub-cache/hosted/pub.dev/path_provider_windows-2.3.0/
+[  +10 ms] Found plugin path_provider_linux at /home/franck/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+[   +5 ms] Found plugin path_provider_foundation at /home/franck/.pub-cache/hosted/pub.dev/path_provider_foundation-2.6.0/
+[  +15 ms] Found plugin path_provider_android at /home/franck/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/
+[  +14 ms] Generating /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
+[  +30 ms] Skipping generating GeneratedPluginRegistrant.java because it is up-to-date.
+[   +3 ms] Skipping generating GeneratedPluginRegistrant.h because it is up-to-date.
+[   +5 ms] Skipping generating GeneratedPluginRegistrant.m because it is up-to-date.
+[  +93 ms] executing: /home/franck/sdk/android-studio/jbr/bin/java -version
+[ +137 ms] Exit code 0 from: /home/franck/sdk/android-studio/jbr/bin/java -version
+[        ] openjdk version "21.0.9" 2025-10-21
+           OpenJDK Runtime Environment (build 21.0.9+-14649483-b1163.86)
+           OpenJDK 64-Bit Server VM (build 21.0.9+-14649483-b1163.86, mixed mode)
+[  +20 ms] Top-level Gradle build file not found, skipping migration of task "clean".
+[   +6 ms] executing: /home/franck/sdk/android-studio/jbr/bin/java --version
+[ +120 ms] Exit code 0 from: /home/franck/sdk/android-studio/jbr/bin/java --version
+[        ] openjdk 21.0.9 2025-10-21
+           OpenJDK Runtime Environment (build 21.0.9+-14649483-b1163.86)
+           OpenJDK 64-Bit Server VM (build 21.0.9+-14649483-b1163.86, mixed mode)
+[   +6 ms] Version of Java is different than impacted version, no migration attempted.
+[  +23 ms] CMake project not found, skipping support Android 15 16k page size migration.
+[   +5 ms] Using gradle from /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/gradlew.
+[  +31 ms] LocalFile: '/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/build.gradle.kts' doesn't provide an AGP version. Checking settings.
+[   +1 ms] LocalFile: '/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/settings.gradle.kts' provides AGP version: 8.11.1
+[   +6 ms] Running Gradle task 'assembleDebug'...
+[   +2 ms] executing: [/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/] /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/gradlew --full-stacktrace --info -Pverbose=true -Ptarget-platform=android-arm,android-arm64,android-x64 -Ptarget=lib/main.dart -Pbase-application-name=android.app.Application -Pdart-defines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049OTA2NzNhNGVlZg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NmMwYmFhZWJmNw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4w -Pdart-obfuscation=false -Ptrack-widget-creation=true -Ptree-shake-icons=false assembleDebug
+[+1401 ms] Initialized native services in: /home/franck/.gradle/native
+[   +2 ms] Initialized jansi services in: /home/franck/.gradle/native
+[ +653 ms] The client will now receive all logging from the daemon (pid: 10081). The daemon log file: /home/franck/.gradle/daemon/8.14/daemon-10081.out.log
+[   +1 ms] Starting 5th build in daemon [uptime: 12 mins 37.305 secs, performance: 100%, GC rate: 0.00/s, heap usage: 0% of 8 GiB, non-heap usage: 5% of 4 GiB]
+[   +5 ms] Using 4 worker leases.
+[        ] Now considering [/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android, /home/franck/sdk/flutter/packages/flutter_tools/gradle] as hierarchies to watch
+[        ] Watching the file system is configured to be enabled if available
+[  +86 ms] File system watching is active
+[        ] Starting Build
+[        ] Now considering [/home/franck/sdk/flutter/packages/flutter_tools/gradle, /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android] as hierarchies to watch
+[ +300 ms] > Configure project :gradle
+[        ] Evaluating project ':gradle' using build file '/home/franck/sdk/flutter/packages/flutter_tools/gradle/build.gradle.kts'.
+[        ] Resolved plugin [id: 'org.gradle.java-gradle-plugin']
+[        ] Resolved plugin [id: 'org.gradle.groovy']
+[        ] Resolved plugin [id: 'org.gradle.kotlin.kotlin-dsl', version: '5.2.0']
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '1.9.20']
+[        ] Using Kotlin Gradle Plugin gradle85 variant
+[   +9 ms] kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+[        ] kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+[   +8 ms] file or directory '/home/franck/sdk/flutter/packages/flutter_tools/gradle/src/main/java', not found
+[        ] Resolved plugin [id: 'dev.flutter.flutter-plugin-loader', version: '1.0.0']
+[        ] Resolved plugin [id: 'com.android.application', version: '8.11.1', apply: false]
+[        ] Resolved plugin [id: 'org.jetbrains.kotlin.android', version: '2.2.20', apply: false]
+[  +74 ms] Resolve mutations for :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#340,Execution worker,5,main]) started.
+[        ] :gradle:checkKotlinGradlePluginConfigurationErrors (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :gradle:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':gradle:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :gradle:compileKotlin (Thread[#340,Execution worker,5,main]) started.
+[        ] :gradle:compileKotlin (Thread[#340,Execution worker,5,main]) started.
+[ +197 ms] > Task :gradle:compileKotlin UP-TO-DATE
+[        ] Caching disabled for task ':gradle:compileKotlin' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':gradle:compileKotlin' as it is up-to-date.
+[        ] Resolve mutations for :gradle:compileJava (Thread[#340,Execution worker,5,main]) started.
+[        ] :gradle:compileJava (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :gradle:compileJava NO-SOURCE
+[        ] Skipping task ':gradle:compileJava' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:compileGroovy (Thread[#340,Execution worker,5,main]) started.
+[        ] :gradle:compileGroovy (Thread[#339,included builds,5,main]) started.
+[        ] > Task :gradle:compileGroovy NO-SOURCE
+[        ] Skipping task ':gradle:compileGroovy' as it has no source files and no previous output files.
+[        ] Resolve mutations for :gradle:pluginDescriptors (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :gradle:pluginDescriptors (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :gradle:pluginDescriptors UP-TO-DATE
+[        ] Caching disabled for task ':gradle:pluginDescriptors' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:pluginDescriptors' as it is up-to-date.
+[        ] Resolve mutations for :gradle:processResources (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :gradle:processResources (Thread[#343,Execution worker Thread 3,5,main]) started.
+[   +2 ms] > Task :gradle:processResources UP-TO-DATE
+[        ] Caching disabled for task ':gradle:processResources' because:
+[   +1 ms]   Build cache is disabled
+[   +1 ms]   Not worth caching
+[        ] Skipping task ':gradle:processResources' as it is up-to-date.
+[   +1 ms] Resolve mutations for :gradle:classes (Thread[#341,Execution worker Thread 2,5,main]) started.
+[   +5 ms] :gradle:classes (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :gradle:classes UP-TO-DATE
+[        ] Skipping task ':gradle:classes' as it has no actions.
+[        ] Resolve mutations for :gradle:jar (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :gradle:jar (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :gradle:jar UP-TO-DATE
+[        ] Caching disabled for task ':gradle:jar' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Skipping task ':gradle:jar' as it is up-to-date.
+[ +281 ms] Settings evaluated using settings file '/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/settings.gradle.kts'.
+[   +2 ms] Projects loaded. Root project using build file '/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/build.gradle.kts'.
+[        ] Included projects: [root project 'android', project ':app', project ':flutter_plugin_android_lifecycle', project ':image_picker_android', project ':path_provider_android', project ':tflite_v2']
+[ +595 ms] > Configure project :app
+[   +3 ms] Evaluating project ':app' using build file '/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/app/build.gradle.kts'.
+[        ] Resolved plugin [id: 'com.android.application']
+[        ] Resolved plugin [id: 'kotlin-android']
+[        ] Resolved plugin [id: 'dev.flutter.flutter-gradle-plugin']
+[        ] Using default execution profile
+[        ] Build d724068a-65a6-494f-93fb-ec6f0c7e07dc is started
+[        ] Using Kotlin Gradle Plugin gradle813 variant
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[   +3 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[   +4 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +6 ms] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +1 ms] C/C++: android.ndkPath from module build.gradle is not set
+[   +2 ms] C/C++: ndk.dir in local.properties is not set
+[   +1 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +4 ms] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[   +5 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[   +2 ms] C/C++: sdkFolder is /home/franck/Android/Sdk
+[   +1 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +3 ms] C/C++: android.ndkPath from module build.gradle is not set
+[   +2 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[   +4 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +2 ms] C/C++: android.ndkPath from module build.gradle is not set
+[   +1 ms] C/C++: ndk.dir in local.properties is not set
+[   +4 ms] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[  +18 ms] C/C++: sdkFolder is /home/franck/Android/Sdk
+[   +5 ms] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +2 ms] C/C++: android.ndkPath from module build.gradle is not set
+[   +2 ms] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[   +1 ms] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] C/C++: android.ndkVersion from module build.gradle is [28.2.13676358]
+[        ] C/C++: android.ndkPath from module build.gradle is not set
+[        ] C/C++: ndk.dir in local.properties is not set
+[        ] C/C++: Not considering ANDROID_NDK_HOME because support was removed after deprecation period.
+[        ] C/C++: sdkFolder is /home/franck/Android/Sdk
+[        ] > Configure project :
+[        ] Evaluating root project 'android' using build file '/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/android/build.gradle.kts'.
+[ +197 ms] > Configure project :flutter_plugin_android_lifecycle
+[   +2 ms] Evaluating project ':flutter_plugin_android_lifecycle' using build file '/home/franck/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.33/android/build.gradle'.
+[        ] Using default execution profile
+[ +195 ms] > Configure project :image_picker_android
+[   +6 ms] Evaluating project ':image_picker_android' using build file '/home/franck/.pub-cache/hosted/pub.dev/image_picker_android-0.8.13+14/android/build.gradle'.
+[        ] Using default execution profile
+[ +198 ms] > Configure project :path_provider_android
+[        ] Evaluating project ':path_provider_android' using build file '/home/franck/.pub-cache/hosted/pub.dev/path_provider_android-2.2.22/android/build.gradle'.
+[        ] Using default execution profile
+[ +200 ms] > Configure project :tflite_v2
+[        ] Evaluating project ':tflite_v2' using build file '/home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/android/build.gradle'.
+[   +4 ms] Using default execution profile
+[        ] All projects evaluated.
+[  +95 ms] Task name matched 'assembleDebug'
+[   +1 ms] Selected primary task 'assembleDebug' from project :
+[  +95 ms] Adding -Xuse-inline-scopes-numbers Kotlin compiler flag for task :app:compileDebugKotlin
+[ +601 ms] Tasks to be executed: [task ':app:DebugMinSdkCheck', task ':app:preBuild', task ':app:preDebugBuild', task ':app:mergeDebugNativeDebugMetadata', task ':app:checkKotlinGradlePluginConfigurationErrors', task ':app:compileFlutterBuildDebug', task ':app:packJniLibsflutterBuildDebug', task ':flutter_plugin_android_lifecycle:preBuild', task ':flutter_plugin_android_lifecycle:preDebugBuild', task ':flutter_plugin_android_lifecycle:writeDebugAarMetadata', task ':image_picker_android:preBuild', task ':image_picker_android:preDebugBuild', task ':image_picker_android:writeDebugAarMetadata', task ':path_provider_android:preBuild', task ':path_provider_android:preDebugBuild', task ':path_provider_android:writeDebugAarMetadata', task ':tflite_v2:preBuild', task ':tflite_v2:preDebugBuild', task ':tflite_v2:writeDebugAarMetadata', task ':app:checkDebugAarMetadata', task ':app:cleanMergeDebugAssets', task ':app:mergeDebugShaders', task ':app:compileDebugShaders', task ':app:generateDebugAssets', task ':flutter_plugin_android_lifecycle:mergeDebugShaders', task ':flutter_plugin_android_lifecycle:compileDebugShaders', task ':flutter_plugin_android_lifecycle:generateDebugAssets', task ':flutter_plugin_android_lifecycle:mergeDebugAssets', task ':image_picker_android:mergeDebugShaders', task ':image_picker_android:compileDebugShaders', task ':image_picker_android:generateDebugAssets', task ':image_picker_android:mergeDebugAssets', task ':path_provider_android:mergeDebugShaders', task ':path_provider_android:compileDebugShaders', task ':path_provider_android:generateDebugAssets', task ':path_provider_android:mergeDebugAssets', task ':tflite_v2:mergeDebugShaders', task ':tflite_v2:compileDebugShaders', task ':tflite_v2:generateDebugAssets', task ':tflite_v2:mergeDebugAssets', task ':app:mergeDebugAssets', task ':app:copyFlutterAssetsDebug', task ':app:generateDebugResValues', task ':flutter_plugin_android_lifecycle:generateDebugResValues', task ':flutter_plugin_android_lifecycle:generateDebugResources', task ':flutter_plugin_android_lifecycle:packageDebugResources', task ':image_picker_android:generateDebugResValues', task ':image_picker_android:generateDebugResources', task ':image_picker_android:packageDebugResources', task ':path_provider_android:generateDebugResValues', task ':path_provider_android:generateDebugResources', task ':path_provider_android:packageDebugResources', task ':tflite_v2:generateDebugResValues', task ':tflite_v2:generateDebugResources', task ':tflite_v2:packageDebugResources', task ':app:mapDebugSourceSetPaths', task ':app:generateDebugResources', task ':app:mergeDebugResources', task ':app:packageDebugResources', task ':app:parseDebugLocalResources', task ':app:createDebugCompatibleScreenManifests', task ':app:extractDeepLinksDebug', task ':flutter_plugin_android_lifecycle:extractDeepLinksDebug', task ':flutter_plugin_android_lifecycle:processDebugManifest', task ':image_picker_android:extractDeepLinksDebug', task ':image_picker_android:processDebugManifest', task ':path_provider_android:extractDeepLinksDebug', task ':path_provider_android:processDebugManifest', task ':tflite_v2:extractDeepLinksDebug', task ':tflite_v2:processDebugManifest', task ':app:processDebugMainManifest', task ':app:outputDebugAppLinkSettings', task ':app:processDebugManifest', task ':app:processDebugManifestForPackage', task ':flutter_plugin_android_lifecycle:compileDebugLibraryResources', task ':flutter_plugin_android_lifecycle:parseDebugLocalResources', task ':flutter_plugin_android_lifecycle:generateDebugRFile', task ':image_picker_android:compileDebugLibraryResources', task ':image_picker_android:parseDebugLocalResources', task ':image_picker_android:generateDebugRFile', task ':path_provider_android:compileDebugLibraryResources', task ':path_provider_android:parseDebugLocalResources', task ':path_provider_android:generateDebugRFile', task ':tflite_v2:compileDebugLibraryResources', task ':tflite_v2:parseDebugLocalResources', task ':tflite_v2:generateDebugRFile', task ':app:processDebugResources', task ':flutter_plugin_android_lifecycle:javaPreCompileDebug', task ':flutter_plugin_android_lifecycle:compileDebugJavaWithJavac', task ':flutter_plugin_android_lifecycle:bundleLibCompileToJarDebug', task ':image_picker_android:javaPreCompileDebug', task ':image_picker_android:compileDebugJavaWithJavac', task ':image_picker_android:bundleLibCompileToJarDebug', task ':path_provider_android:javaPreCompileDebug', task ':path_provider_android:compileDebugJavaWithJavac', task ':path_provider_android:bundleLibCompileToJarDebug', task ':tflite_v2:javaPreCompileDebug', task ':tflite_v2:compileDebugJavaWithJavac', task ':tflite_v2:bundleLibCompileToJarDebug', task ':app:compileDebugKotlin', task ':app:javaPreCompileDebug', task ':app:compileDebugJavaWithJavac', task ':app:compressDebugAssets', task ':image_picker_android:bundleLibRuntimeToJarDebug', task ':flutter_plugin_android_lifecycle:bundleLibRuntimeToJarDebug', task ':path_provider_android:bundleLibRuntimeToJarDebug', task ':tflite_v2:bundleLibRuntimeToJarDebug', task ':app:desugarDebugFileDependencies', task ':app:dexBuilderDebug', task ':app:mergeDebugGlobalSynthetics', task ':app:processDebugJavaRes', task ':flutter_plugin_android_lifecycle:processDebugJavaRes', task ':image_picker_android:processDebugJavaRes', task ':path_provider_android:processDebugJavaRes', task ':tflite_v2:processDebugJavaRes', task ':app:mergeDebugJavaResource', task ':app:checkDebugDuplicateClasses', task ':app:mergeExtDexDebug', task ':image_picker_android:bundleLibRuntimeToDirDebug', task ':flutter_plugin_android_lifecycle:bundleLibRuntimeToDirDebug', task ':path_provider_android:bundleLibRuntimeToDirDebug', task ':tflite_v2:bundleLibRuntimeToDirDebug', task ':app:mergeLibDexDebug', task ':app:mergeProjectDexDebug', task ':app:configureCMakeDebug[arm64-v8a]', task ':app:buildCMakeDebug[arm64-v8a]', task ':app:configureCMakeDebug[armeabi-v7a]', task ':app:buildCMakeDebug[armeabi-v7a]', task ':app:configureCMakeDebug[x86_64]', task ':app:buildCMakeDebug[x86_64]', task ':app:mergeDebugJniLibFolders', task ':flutter_plugin_android_lifecycle:mergeDebugJniLibFolders', task ':flutter_plugin_android_lifecycle:mergeDebugNativeLibs', task ':flutter_plugin_android_lifecycle:copyDebugJniLibsProjectOnly', task ':image_picker_android:mergeDebugJniLibFolders', task ':image_picker_android:mergeDebugNativeLibs', task ':image_picker_android:copyDebugJniLibsProjectOnly', task ':path_provider_android:mergeDebugJniLibFolders', task ':path_provider_android:mergeDebugNativeLibs', task ':path_provider_android:copyDebugJniLibsProjectOnly', task ':tflite_v2:mergeDebugJniLibFolders', task ':tflite_v2:mergeDebugNativeLibs', task ':tflite_v2:copyDebugJniLibsProjectOnly', task ':app:mergeDebugNativeLibs', task ':app:stripDebugDebugSymbols', task ':app:validateSigningDebug', task ':app:writeDebugAppMetadata', task ':app:writeDebugSigningConfigVersions', task ':app:packageDebug', task ':app:createDebugApkListingFileRedirect', task ':app:assembleDebug', task ':flutter_plugin_android_lifecycle:stripDebugDebugSymbols', task ':flutter_plugin_android_lifecycle:copyDebugJniLibsProjectAndLocalJars', task ':flutter_plugin_android_lifecycle:extractDebugAnnotations', task ':flutter_plugin_android_lifecycle:extractDeepLinksForAarDebug', task ':flutter_plugin_android_lifecycle:mergeDebugGeneratedProguardFiles', task ':flutter_plugin_android_lifecycle:mergeDebugConsumerProguardFiles', task ':flutter_plugin_android_lifecycle:prepareDebugArtProfile', task ':flutter_plugin_android_lifecycle:prepareLintJarForPublish', task ':flutter_plugin_android_lifecycle:mergeDebugJavaResource', task ':flutter_plugin_android_lifecycle:syncDebugLibJars', task ':flutter_plugin_android_lifecycle:bundleDebugAar', task ':flutter_plugin_android_lifecycle:assembleDebug', task ':image_picker_android:stripDebugDebugSymbols', task ':image_picker_android:copyDebugJniLibsProjectAndLocalJars', task ':image_picker_android:extractDebugAnnotations', task ':image_picker_android:extractDeepLinksForAarDebug', task ':image_picker_android:mergeDebugGeneratedProguardFiles', task ':image_picker_android:mergeDebugConsumerProguardFiles', task ':image_picker_android:prepareDebugArtProfile', task ':image_picker_android:prepareLintJarForPublish', task ':image_picker_android:mergeDebugJavaResource', task ':image_picker_android:syncDebugLibJars', task ':image_picker_android:bundleDebugAar', task ':image_picker_android:assembleDebug', task ':path_provider_android:stripDebugDebugSymbols', task ':path_provider_android:copyDebugJniLibsProjectAndLocalJars', task ':path_provider_android:extractDebugAnnotations', task ':path_provider_android:extractDeepLinksForAarDebug', task ':path_provider_android:mergeDebugGeneratedProguardFiles', task ':path_provider_android:mergeDebugConsumerProguardFiles', task ':path_provider_android:prepareDebugArtProfile', task ':path_provider_android:prepareLintJarForPublish', task ':path_provider_android:mergeDebugJavaResource', task ':path_provider_android:syncDebugLibJars', task ':path_provider_android:bundleDebugAar', task ':path_provider_android:assembleDebug', task ':tflite_v2:stripDebugDebugSymbols', task ':tflite_v2:copyDebugJniLibsProjectAndLocalJars', task ':tflite_v2:extractDebugAnnotations', task ':tflite_v2:extractDeepLinksForAarDebug', task ':tflite_v2:mergeDebugGeneratedProguardFiles', task ':tflite_v2:mergeDebugConsumerProguardFiles', task ':tflite_v2:prepareDebugArtProfile', task ':tflite_v2:prepareLintJarForPublish', task ':tflite_v2:mergeDebugJavaResource', task ':tflite_v2:syncDebugLibJars', task ':tflite_v2:bundleDebugAar', task ':tflite_v2:assembleDebug']
+[   +6 ms] Tasks that were excluded: []
+[        ] work action Parameters of IdentityTransform (Thread[#340,Execution worker,5,main]) started.
+[        ] work action Parameters of DexingNoClasspathTransform (Thread[#340,Execution worker,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[#340,Execution worker,5,main]) started.
+[        ] work action Parameters of ClassesDirToClassesTransform (Thread[#340,Execution worker,5,main]) started.
+[        ] work action Parameters of DexingOutputSplitTransform (Thread[#340,Execution worker,5,main]) started.
+[        ] Resolve mutations for :app:DebugMinSdkCheck (Thread[#340,Execution worker,5,main]) started.
+[        ] :app:DebugMinSdkCheck (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :app:DebugMinSdkCheck
+[        ] Caching disabled for task ':app:DebugMinSdkCheck' because:
+[        ]   Build cache is disabled
+[        ] Task ':app:DebugMinSdkCheck' is not up-to-date because:
+[        ]   Task has not declared any outputs despite executing actions.
+[        ] Resolve mutations for :app:preBuild (Thread[#339,included builds,5,main]) started.
+[   +2 ms] :app:preBuild (Thread[#339,included builds,5,main]) started.
+[        ] > Task :app:preBuild UP-TO-DATE
+[        ] Skipping task ':app:preBuild' as it has no actions.
+[        ] Resolve mutations for :app:preDebugBuild (Thread[#339,included builds,5,main]) started.
+[        ] :app:preDebugBuild (Thread[#339,included builds,5,main]) started.
+[        ] > Task :app:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':app:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :app:mergeDebugNativeDebugMetadata (Thread[#340,Execution worker,5,main]) started.
+[        ] :app:mergeDebugNativeDebugMetadata (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+[        ] Skipping task ':app:mergeDebugNativeDebugMetadata' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:checkKotlinGradlePluginConfigurationErrors (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :app:checkKotlinGradlePluginConfigurationErrors (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+[        ] Skipping task ':app:checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+[        ] Resolve mutations for :app:compileFlutterBuildDebug (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :app:compileFlutterBuildDebug (Thread[#340,Execution worker,5,main]) started.
+[+1977 ms] > Task :app:compileFlutterBuildDebug
+[   +1 ms] Caching disabled for task ':app:compileFlutterBuildDebug' because:
+[        ]   Build cache is disabled
+[   +1 ms]   Caching has not been enabled for the task
+[        ] Task ':app:compileFlutterBuildDebug' is not up-to-date because:
+[        ]   Value of input property 'verbose' has changed for task ':app:compileFlutterBuildDebug'
+[   +1 ms] Starting process 'command '/home/franck/sdk/flutter/bin/flutter''. Working directory: /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia Command: /home/franck/sdk/flutter/bin/flutter --verbose assemble --no-version-check --depfile /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/flutter/debug/flutter_build.d --output /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/flutter/debug -dTargetFile=lib/main.dart -dTargetPlatform=android -dBuildMode=debug -dTrackWidgetCreation=true --DartDefines=RkxVVFRFUl9WRVJTSU9OPTMuNDEuMg==,RkxVVFRFUl9DSEFOTkVMPXN0YWJsZQ==,RkxVVFRFUl9HSVRfVVJMPWh0dHBzOi8vZ2l0aHViLmNvbS9mbHV0dGVyL2ZsdXR0ZXIuZ2l0,RkxVVFRFUl9GUkFNRVdPUktfUkVWSVNJT049OTA2NzNhNGVlZg==,RkxVVFRFUl9FTkdJTkVfUkVWSVNJT049NmMwYmFhZWJmNw==,RkxVVFRFUl9EQVJUX1ZFUlNJT049My4xMS4w -dFlavor= -dAndroidArchs=android-arm android-arm64 android-x64 -dMinSdkVersion=24 debug_android_application
+[   +1 ms] Successfully started process 'command '/home/franck/sdk/flutter/bin/flutter''
+[        ] [  +67 ms] executing: uname -m
+[        ] [  +10 ms] Exit code 0 from: uname -m
+[   +1 ms] [        ] x86_64
+[   +1 ms] [  +15 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +7 ms] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[   +3 ms] [        ] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +69 ms] [  +16 ms] Artifact Instance of 'AndroidGenSnapshotArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [   +2 ms] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[   +1 ms] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[  +93 ms] [ +131 ms] Artifact Instance of 'MaterialFonts' is not required, skipping update.
+[   +3 ms] [        ] Artifact Instance of 'GradleWrapper' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'AndroidInternalBuildArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterWebSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterEngineStamp' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LegacyCanvasKitRemover' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterSdk' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'WindowsEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxEngineArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'LinuxFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'MacOSFuchsiaSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerSDKArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FlutterRunnerDebugSymbols' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[   +1 ms] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'IosUsbArtifacts' is not required, skipping update.
+[        ] [        ] Artifact Instance of 'FontSubsetArtifacts' is not required, skipping update.
+[        ] [   +1 ms] Artifact Instance of 'PubDependencies' is not required, skipping update.
+[  +90 ms] [  +60 ms] Initializing file store
+[   +2 ms] [  +37 ms] Done initializing file store
+[  +97 ms] [  +97 ms] Skipping target: dart_build
+[        ] [   +2 ms] Skipping target: gen_dart_plugin_registrant
+[        ] [        ] Skipping target: install_code_assets
+[        ] [        ] Skipping target: gen_localizations
+[ +797 ms] [ +782 ms] Skipping target: kernel_snapshot_program
+[        ] [   +9 ms] invalidated build due to missing files: /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/DOES_NOT_EXIST_RERUN_FOR_WILDCARD1027543222
+[ +500 ms] [ +540 ms] debug_android_application: Starting due to {InvalidatedReasonKind.inputMissing: The following inputs were missing: /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/DOES_NOT_EXIST_RERUN_FOR_WILDCARD1027543222}
+[ +599 ms] [ +580 ms] Manifest contained wildcard assets. Inserting missing file into build graph to force rerun. for more information see #56466.
+[        ] [  +16 ms] shaderc command: [/home/franck/sdk/flutter/bin/cache/artifacts/engine/linux-x64/impellerc, --sksl, --runtime-stage-gles, --runtime-stage-gles3, --runtime-stage-vulkan, --iplr, --sl=/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/flutter/debug/flutter_assets/shaders/ink_sparkle.frag, --spirv=/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/flutter/debug/flutter_assets/shaders/ink_sparkle.frag.spirv, --input=/home/franck/sdk/flutter/packages/flutter/lib/src/material/shaders/ink_sparkle.frag, --input-type=frag, --include=/home/franck/sdk/flutter/packages/flutter/lib/src/material/shaders, --include=/home/franck/sdk/flutter/bin/cache/artifacts/engine/linux-x64/shader_lib]
+[        ] [   +5 ms] shaderc command: [/home/franck/sdk/flutter/bin/cache/artifacts/engine/linux-x64/impellerc, --sksl, --runtime-stage-gles, --runtime-stage-gles3, --runtime-stage-vulkan, --iplr, --sl=/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/flutter/debug/flutter_assets/shaders/stretch_effect.frag, --spirv=/home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/flutter/debug/flutter_assets/shaders/stretch_effect.frag.spirv, --input=/home/franck/sdk/flutter/packages/flutter/lib/src/material/shaders/stretch_effect.frag, --input-type=frag, --include=/home/franck/sdk/flutter/packages/flutter/lib/src/material/shaders, --include=/home/franck/sdk/flutter/bin/cache/artifacts/engine/linux-x64/shader_lib]
+[+1198 ms] [+1172 ms] debug_android_application: Complete
+[ +501 ms] [ +484 ms] Persisting file store
+[        ] [  +15 ms] Done persisting file store
+[        ] [  +29 ms] build succeeded.
+[        ] [   +7 ms] "flutter assemble" took 3,997ms.
+[  +98 ms] [  +37 ms] Running 1 shutdown hook
+[   +1 ms] [   +1 ms] Shutdown hooks complete
+[ +199 ms] [ +275 ms] exiting with code 0
+[ +208 ms] Resolve mutations for :app:packJniLibsflutterBuildDebug (Thread[#340,Execution worker,5,main]) started.
+[        ] :app:packJniLibsflutterBuildDebug (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :app:packJniLibsflutterBuildDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:packJniLibsflutterBuildDebug' because:
+[        ]   Build cache is disabled
+[   +2 ms]   Not worth caching
+[   +4 ms] Skipping task ':app:packJniLibsflutterBuildDebug' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:preBuild (Thread[#340,Execution worker,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:preBuild (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:preBuild UP-TO-DATE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:preBuild' as it has no actions.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:preDebugBuild (Thread[#340,Execution worker,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:preDebugBuild (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:writeDebugAarMetadata (Thread[#340,Execution worker,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:writeDebugAarMetadata (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :flutter_plugin_android_lifecycle) (Thread[#340,Execution worker,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:preBuild (Thread[#339,included builds,5,main]) started.
+[        ] :image_picker_android:preBuild (Thread[#339,included builds,5,main]) started.
+[        ] > Task :image_picker_android:preBuild UP-TO-DATE
+[        ] Skipping task ':image_picker_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :image_picker_android:preDebugBuild (Thread[#339,included builds,5,main]) started.
+[        ] :image_picker_android:preDebugBuild (Thread[#339,included builds,5,main]) started.
+[        ] > Task :image_picker_android:preDebugBuild UP-TO-DATE
+[   +1 ms] Skipping task ':image_picker_android:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :image_picker_android:writeDebugAarMetadata (Thread[#339,included builds,5,main]) started.
+[        ] :image_picker_android:writeDebugAarMetadata (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :image_picker_android:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':image_picker_android:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :image_picker_android) (Thread[#340,Execution worker,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:preBuild (Thread[#340,Execution worker,5,main]) started.
+[        ] :path_provider_android:preBuild (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:preBuild UP-TO-DATE
+[        ] Skipping task ':path_provider_android:preBuild' as it has no actions.
+[        ] Resolve mutations for :path_provider_android:preDebugBuild (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:preDebugBuild (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':path_provider_android:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :path_provider_android:writeDebugAarMetadata (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:writeDebugAarMetadata (Thread[#340,Execution worker,5,main]) started.
+[   +1 ms] > Task :path_provider_android:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':path_provider_android:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :path_provider_android) (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :tflite_v2:preBuild (Thread[#339,included builds,5,main]) started.
+[        ] :tflite_v2:preBuild (Thread[#339,included builds,5,main]) started.
+[        ] > Task :tflite_v2:preBuild UP-TO-DATE
+[        ] Skipping task ':tflite_v2:preBuild' as it has no actions.
+[        ] Resolve mutations for :tflite_v2:preDebugBuild (Thread[#339,included builds,5,main]) started.
+[        ] :tflite_v2:preDebugBuild (Thread[#339,included builds,5,main]) started.
+[        ] > Task :tflite_v2:preDebugBuild UP-TO-DATE
+[        ] Skipping task ':tflite_v2:preDebugBuild' as it has no actions.
+[        ] Resolve mutations for :tflite_v2:writeDebugAarMetadata (Thread[#340,Execution worker,5,main]) started.
+[        ] :tflite_v2:writeDebugAarMetadata (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :tflite_v2:writeDebugAarMetadata UP-TO-DATE
+[        ] Caching disabled for task ':tflite_v2:writeDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':tflite_v2:writeDebugAarMetadata' as it is up-to-date.
+[        ] work action resolve aar-metadata.properties (project :tflite_v2) (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :app:checkDebugAarMetadata (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :app:checkDebugAarMetadata (Thread[#341,Execution worker Thread 2,5,main]) started.
+[ +154 ms] > Task :app:checkDebugAarMetadata UP-TO-DATE
+[   +2 ms] Caching disabled for task ':app:checkDebugAarMetadata' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:checkDebugAarMetadata' as it is up-to-date.
+[        ] Resolve mutations for :app:cleanMergeDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :app:cleanMergeDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:cleanMergeDebugAssets
+[        ] Caching disabled for task ':app:cleanMergeDebugAssets' because:
+[   +2 ms]   Build cache is disabled
+[   +2 ms] Task ':app:cleanMergeDebugAssets' is not up-to-date because:
+[   +2 ms]   Task has not declared any outputs despite executing actions.
+[   +1 ms] Resolve mutations for :app:mergeDebugShaders (Thread[#341,Execution worker Thread 2,5,main]) started.
+[   +1 ms] :app:mergeDebugShaders (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':app:mergeDebugShaders' as it is up-to-date.
+[  +95 ms] Resolve mutations for :app:compileDebugShaders (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :app:compileDebugShaders (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :app:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':app:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :app:generateDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :app:generateDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:generateDebugAssets UP-TO-DATE
+[   +1 ms] Skipping task ':app:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:mergeDebugShaders (Thread[#341,Execution worker Thread 2,5,main]) started.
+[   +1 ms] :flutter_plugin_android_lifecycle:mergeDebugShaders (Thread[#341,Execution worker Thread 2,5,main]) started.
+[   +8 ms] > Task :flutter_plugin_android_lifecycle:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:compileDebugShaders (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:compileDebugShaders (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:compileDebugShaders' as it has no source files and no previous output files.
+[   +4 ms] Resolve mutations for :flutter_plugin_android_lifecycle:generateDebugAssets (Thread[#343,Execution worker Thread 3,5,main]) started.
+[   +8 ms] :flutter_plugin_android_lifecycle:generateDebugAssets (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':flutter_plugin_android_lifecycle:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:mergeDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:mergeDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':flutter_plugin_android_lifecycle:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :flutter_plugin_android_lifecycle) (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:mergeDebugShaders (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :image_picker_android:mergeDebugShaders (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :image_picker_android:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':image_picker_android:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :image_picker_android:compileDebugShaders (Thread[#343,Execution worker Thread 3,5,main]) started.
+[   +8 ms] :image_picker_android:compileDebugShaders (Thread[#343,Execution worker Thread 3,5,main]) started.
+[   +1 ms] > Task :image_picker_android:compileDebugShaders NO-SOURCE
+[   +1 ms] Skipping task ':image_picker_android:compileDebugShaders' as it has no source files and no previous output files.
+[  +10 ms] Resolve mutations for :image_picker_android:generateDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :image_picker_android:generateDebugAssets (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :image_picker_android:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':image_picker_android:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :image_picker_android:mergeDebugAssets (Thread[#340,Execution worker,5,main]) started.
+[        ] :image_picker_android:mergeDebugAssets (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :image_picker_android:mergeDebugAssets UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:mergeDebugAssets' because:
+[   +4 ms]   Build cache is disabled
+[        ]   Simple merging task
+[   +1 ms] Skipping task ':image_picker_android:mergeDebugAssets' as it is up-to-date.
+[   +2 ms] work action resolve mergeDebugAssets (project :image_picker_android) (Thread[#341,Execution worker Thread 2,5,main]) started.
+[   +7 ms] Resolve mutations for :path_provider_android:mergeDebugShaders (Thread[#339,included builds,5,main]) started.
+[   +3 ms] :path_provider_android:mergeDebugShaders (Thread[#339,included builds,5,main]) started.
+[        ] > Task :path_provider_android:mergeDebugShaders UP-TO-DATE
+[   +5 ms] Caching disabled for task ':path_provider_android:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':path_provider_android:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:compileDebugShaders (Thread[#339,included builds,5,main]) started.
+[        ] :path_provider_android:compileDebugShaders (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :path_provider_android:compileDebugShaders NO-SOURCE
+[        ] Skipping task ':path_provider_android:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :path_provider_android:generateDebugAssets (Thread[#339,included builds,5,main]) started.
+[        ] :path_provider_android:generateDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :path_provider_android:generateDebugAssets UP-TO-DATE
+[        ] Skipping task ':path_provider_android:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :path_provider_android:mergeDebugAssets (Thread[#339,included builds,5,main]) started.
+[   +3 ms] :path_provider_android:mergeDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :path_provider_android:mergeDebugAssets UP-TO-DATE
+[   +2 ms] Caching disabled for task ':path_provider_android:mergeDebugAssets' because:
+[   +5 ms]   Build cache is disabled
+[   +1 ms]   Simple merging task
+[        ] Skipping task ':path_provider_android:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :path_provider_android) (Thread[#339,included builds,5,main]) started.
+[        ] Resolve mutations for :tflite_v2:mergeDebugShaders (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :tflite_v2:mergeDebugShaders (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :tflite_v2:mergeDebugShaders UP-TO-DATE
+[        ] Caching disabled for task ':tflite_v2:mergeDebugShaders' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':tflite_v2:mergeDebugShaders' as it is up-to-date.
+[        ] Resolve mutations for :tflite_v2:compileDebugShaders (Thread[#339,included builds,5,main]) started.
+[   +1 ms] :tflite_v2:compileDebugShaders (Thread[#339,included builds,5,main]) started.
+[   +2 ms] > Task :tflite_v2:compileDebugShaders NO-SOURCE
+[   +1 ms] Skipping task ':tflite_v2:compileDebugShaders' as it has no source files and no previous output files.
+[        ] Resolve mutations for :tflite_v2:generateDebugAssets (Thread[#339,included builds,5,main]) started.
+[        ] :tflite_v2:generateDebugAssets (Thread[#339,included builds,5,main]) started.
+[        ] > Task :tflite_v2:generateDebugAssets UP-TO-DATE
+[   +1 ms] Skipping task ':tflite_v2:generateDebugAssets' as it has no actions.
+[        ] Resolve mutations for :tflite_v2:mergeDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :tflite_v2:mergeDebugAssets (Thread[#339,included builds,5,main]) started.
+[        ] > Task :tflite_v2:mergeDebugAssets UP-TO-DATE
+[   +2 ms] Caching disabled for task ':tflite_v2:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Skipping task ':tflite_v2:mergeDebugAssets' as it is up-to-date.
+[        ] work action resolve mergeDebugAssets (project :tflite_v2) (Thread[#339,included builds,5,main]) started.
+[        ] Resolve mutations for :app:mergeDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :app:mergeDebugAssets (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:mergeDebugAssets
+[        ] Caching disabled for task ':app:mergeDebugAssets' because:
+[        ]   Build cache is disabled
+[        ]   Simple merging task
+[        ] Task ':app:mergeDebugAssets' is not up-to-date because:
+[        ]   Output property 'outputDir' file /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/assets/debug/mergeDebugAssets has been removed.
+[        ] The input changes require a full rebuild for incremental task ':app:mergeDebugAssets'.
+[        ] Resolve mutations for :app:copyFlutterAssetsDebug (Thread[#339,included builds,5,main]) started.
+[        ] :app:copyFlutterAssetsDebug (Thread[#339,included builds,5,main]) started.
+[ +481 ms] > Task :app:copyFlutterAssetsDebug
+[        ] Caching disabled for task ':app:copyFlutterAssetsDebug' because:
+[        ]   Build cache is disabled
+[        ]   Not worth caching
+[        ] Task ':app:copyFlutterAssetsDebug' is not up-to-date because:
+[        ]   Output property 'destinationDir' file /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets has been removed.
+[        ]   Output property 'destinationDir' file /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/AssetManifest.bin has been removed.
+[        ]   Output property 'destinationDir' file /home/franck/Documents/M2 OCC 2026/smart DATA-CITY/projet2/cutisia/build/app/intermediates/assets/debug/mergeDebugAssets/flutter_assets/FontManifest.json has been removed.
+[        ]   and more...
+[        ] Resolve mutations for :app:generateDebugResValues (Thread[#339,included builds,5,main]) started.
+[        ] :app:generateDebugResValues (Thread[#339,included builds,5,main]) started.
+[   +5 ms] > Task :app:generateDebugResValues UP-TO-DATE
+[   +3 ms] Caching disabled for task ':app:generateDebugResValues' because:
+[   +2 ms]   Build cache is disabled
+[   +1 ms] Skipping task ':app:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:generateDebugResValues (Thread[#339,included builds,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:generateDebugResValues (Thread[#339,included builds,5,main]) started.
+[        ] > Task :flutter_plugin_android_lifecycle:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[   +3 ms] Skipping task ':flutter_plugin_android_lifecycle:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:generateDebugResources (Thread[#339,included builds,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:generateDebugResources (Thread[#339,included builds,5,main]) started.
+[   +2 ms] > Task :flutter_plugin_android_lifecycle:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:packageDebugResources (Thread[#339,included builds,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:packageDebugResources (Thread[#339,included builds,5,main]) started.
+[   +9 ms] > Task :flutter_plugin_android_lifecycle:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':flutter_plugin_android_lifecycle:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :flutter_plugin_android_lifecycle) (Thread[#339,included builds,5,main]) started.
+[        ] Resolve mutations for :image_picker_android:generateDebugResValues (Thread[#339,included builds,5,main]) started.
+[   +2 ms] :image_picker_android:generateDebugResValues (Thread[#339,included builds,5,main]) started.
+[   +1 ms] > Task :image_picker_android:generateDebugResValues UP-TO-DATE
+[   +1 ms] Caching disabled for task ':image_picker_android:generateDebugResValues' because:
+[   +1 ms]   Build cache is disabled
+[   +2 ms] Skipping task ':image_picker_android:generateDebugResValues' as it is up-to-date.
+[   +2 ms] Resolve mutations for :image_picker_android:generateDebugResources (Thread[#339,included builds,5,main]) started.
+[   +5 ms] :image_picker_android:generateDebugResources (Thread[#339,included builds,5,main]) started.
+[   +1 ms] > Task :image_picker_android:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :image_picker_android:packageDebugResources (Thread[#339,included builds,5,main]) started.
+[        ] :image_picker_android:packageDebugResources (Thread[#339,included builds,5,main]) started.
+[   +4 ms] > Task :image_picker_android:packageDebugResources UP-TO-DATE
+[   +6 ms] Caching disabled for task ':image_picker_android:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:packageDebugResources' as it is up-to-date.
+[        ] work action resolve packageDebugResources (project :image_picker_android) (Thread[#339,included builds,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:generateDebugResValues (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :path_provider_android:generateDebugResValues (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :path_provider_android:generateDebugResValues UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:generateDebugResources (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :path_provider_android:generateDebugResources (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :path_provider_android:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:generateDebugResources' because:
+[   +8 ms]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :path_provider_android:packageDebugResources (Thread[#341,Execution worker Thread 2,5,main]) started.
+[  +21 ms] :path_provider_android:packageDebugResources (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :path_provider_android:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:packageDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:packageDebugResources' as it is up-to-date.
+[   +7 ms] work action resolve packageDebugResources (project :path_provider_android) (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :tflite_v2:generateDebugResValues (Thread[#339,included builds,5,main]) started.
+[   +2 ms] :tflite_v2:generateDebugResValues (Thread[#340,Execution worker,5,main]) started.
+[   +1 ms] > Task :tflite_v2:generateDebugResValues UP-TO-DATE
+[   +5 ms] Caching disabled for task ':tflite_v2:generateDebugResValues' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':tflite_v2:generateDebugResValues' as it is up-to-date.
+[        ] Resolve mutations for :tflite_v2:generateDebugResources (Thread[#340,Execution worker,5,main]) started.
+[        ] :tflite_v2:generateDebugResources (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :tflite_v2:generateDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':tflite_v2:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':tflite_v2:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :tflite_v2:packageDebugResources (Thread[#339,included builds,5,main]) started.
+[        ] :tflite_v2:packageDebugResources (Thread[#339,included builds,5,main]) started.
+[        ] > Task :tflite_v2:packageDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':tflite_v2:packageDebugResources' because:
+[   +9 ms]   Build cache is disabled
+[   +3 ms] Skipping task ':tflite_v2:packageDebugResources' as it is up-to-date.
+[   +2 ms] work action resolve packageDebugResources (project :tflite_v2) (Thread[#340,Execution worker,5,main]) started.
+[   +6 ms] Resolve mutations for :app:mapDebugSourceSetPaths (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :app:mapDebugSourceSetPaths (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:mapDebugSourceSetPaths UP-TO-DATE
+[        ] Caching disabled for task ':app:mapDebugSourceSetPaths' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:mapDebugSourceSetPaths' as it is up-to-date.
+[        ] Resolve mutations for :app:generateDebugResources (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :app:generateDebugResources (Thread[#341,Execution worker Thread 2,5,main]) started.
+[  +10 ms] > Task :app:generateDebugResources UP-TO-DATE
+[   +1 ms] Caching disabled for task ':app:generateDebugResources' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:generateDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:mergeDebugResources (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :app:mergeDebugResources (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :app:mergeDebugResources UP-TO-DATE
+[        ] Caching disabled for task ':app:mergeDebugResources' because:
+[   +4 ms]   Build cache is disabled
+[   +3 ms] Skipping task ':app:mergeDebugResources' as it is up-to-date.
+[        ] Resolve mutations for :app:packageDebugResources (Thread[#340,Execution worker,5,main]) started.
+[        ] :app:packageDebugResources (Thread[#340,Execution worker,5,main]) started.
+[  +35 ms] > Task :app:packageDebugResources UP-TO-DATE
+[   +1 ms] Caching disabled for task ':app:packageDebugResources' because:
+[   +2 ms]   Build cache is disabled
+[   +2 ms] Skipping task ':app:packageDebugResources' as it is up-to-date.
+[   +1 ms] Resolve mutations for :app:parseDebugLocalResources (Thread[#340,Execution worker,5,main]) started.
+[        ] :app:parseDebugLocalResources (Thread[#340,Execution worker,5,main]) started.
+[   +4 ms] > Task :app:parseDebugLocalResources UP-TO-DATE
+[   +1 ms] Caching disabled for task ':app:parseDebugLocalResources' because:
+[        ]   Build cache is disabled
+[   +3 ms] Skipping task ':app:parseDebugLocalResources' as it is up-to-date.
+[   +3 ms] Resolve mutations for :app:createDebugCompatibleScreenManifests (Thread[#340,Execution worker,5,main]) started.
+[   +6 ms] :app:createDebugCompatibleScreenManifests (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+[        ] Caching disabled for task ':app:createDebugCompatibleScreenManifests' because:
+[        ]   Build cache is disabled
+[        ]   Caching has been disabled for the task
+[        ] Skipping task ':app:createDebugCompatibleScreenManifests' as it is up-to-date.
+[        ] Resolve mutations for :app:extractDeepLinksDebug (Thread[#340,Execution worker,5,main]) started.
+[  +13 ms] :app:extractDeepLinksDebug (Thread[#340,Execution worker,5,main]) started.
+[        ] > Task :app:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':app:extractDeepLinksDebug' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':app:extractDeepLinksDebug' as it is up-to-date.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:extractDeepLinksDebug (Thread[#341,Execution worker Thread 2,5,main]) started.
+[   +1 ms] :flutter_plugin_android_lifecycle:extractDeepLinksDebug (Thread[#341,Execution worker Thread 2,5,main]) started.
+[   +3 ms] > Task :flutter_plugin_android_lifecycle:extractDeepLinksDebug UP-TO-DATE
+[   +1 ms] Caching disabled for task ':flutter_plugin_android_lifecycle:extractDeepLinksDebug' because:
+[   +2 ms]   Build cache is disabled
+[   +3 ms] Skipping task ':flutter_plugin_android_lifecycle:extractDeepLinksDebug' as it is up-to-date.
+[   +3 ms] work action resolve navigation.json (project :flutter_plugin_android_lifecycle) (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:processDebugManifest (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:processDebugManifest (Thread[#341,Execution worker Thread 2,5,main]) started.
+[  +31 ms] > Task :flutter_plugin_android_lifecycle:processDebugManifest UP-TO-DATE
+[   +1 ms] Caching disabled for task ':flutter_plugin_android_lifecycle:processDebugManifest' because:
+[        ]   Build cache is disabled
+[   +1 ms] Skipping task ':flutter_plugin_android_lifecycle:processDebugManifest' as it is up-to-date.
+[   +1 ms] work action resolve AndroidManifest.xml (project :flutter_plugin_android_lifecycle) (Thread[#341,Execution worker Thread 2,5,main]) started.
+[   +2 ms] Resolve mutations for :image_picker_android:extractDeepLinksDebug (Thread[#340,Execution worker,5,main]) started.
+[   +2 ms] :image_picker_android:extractDeepLinksDebug (Thread[#340,Execution worker,5,main]) started.
+[   +4 ms] > Task :image_picker_android:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:extractDeepLinksDebug' because:
+[   +1 ms]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:extractDeepLinksDebug' as it is up-to-date.
+[   +1 ms] work action resolve navigation.json (project :image_picker_android) (Thread[#340,Execution worker,5,main]) started.
+[   +1 ms] Resolve mutations for :image_picker_android:processDebugManifest (Thread[#340,Execution worker,5,main]) started.
+[   +2 ms] :image_picker_android:processDebugManifest (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] > Task :image_picker_android:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':image_picker_android:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Skipping task ':image_picker_android:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :image_picker_android) (Thread[#340,Execution worker,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:extractDeepLinksDebug (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:extractDeepLinksDebug (Thread[#343,Execution worker Thread 3,5,main]) started.
+[   +1 ms] > Task :path_provider_android:extractDeepLinksDebug UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:extractDeepLinksDebug' because:
+[   +1 ms]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :path_provider_android) (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] Resolve mutations for :path_provider_android:processDebugManifest (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] :path_provider_android:processDebugManifest (Thread[#343,Execution worker Thread 3,5,main]) started.
+[        ] > Task :path_provider_android:processDebugManifest UP-TO-DATE
+[        ] Caching disabled for task ':path_provider_android:processDebugManifest' because:
+[   +1 ms]   Build cache is disabled
+[        ] Skipping task ':path_provider_android:processDebugManifest' as it is up-to-date.
+[        ] work action resolve AndroidManifest.xml (project :path_provider_android) (Thread[#340,Execution worker,5,main]) started.
+[        ] Resolve mutations for :tflite_v2:extractDeepLinksDebug (Thread[#340,Execution worker,5,main]) started.
+[        ] :tflite_v2:extractDeepLinksDebug (Thread[#339,included builds,5,main]) started.
+[        ] > Task :tflite_v2:extractDeepLinksDebug UP-TO-DATE
+[   +1 ms] Caching disabled for task ':tflite_v2:extractDeepLinksDebug' because:
+[   +2 ms]   Build cache is disabled
+[        ] Skipping task ':tflite_v2:extractDeepLinksDebug' as it is up-to-date.
+[        ] work action resolve navigation.json (project :tflite_v2) (Thread[#340,Execution worker,5,main]) started.
+[        ] Resolve mutations for :tflite_v2:processDebugManifest (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] :tflite_v2:processDebugManifest (Thread[#341,Execution worker Thread 2,5,main]) started.
+[        ] Resolve mutations for :flutter_plugin_android_lifecycle:compileDebugLibraryResources (Thread[#339,included builds,5,main]) started.
+[        ] :flutter_plugin_android_lifecycle:compileDebugLibraryResources (Thread[#339,included builds,5,main]) started.
+[        ] > Task :tflite_v2:processDebugManifest FAILED
+[        ] Caching disabled for task ':tflite_v2:processDebugManifest' because:
+[        ]   Build cache is disabled
+[        ] Task ':tflite_v2:processDebugManifest' is not up-to-date because:
+[        ]   Task has failed previously.
+[   +3 ms] Incorrect package="sq.flutter.tflite" found in source AndroidManifest.xml: /home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/android/src/main/AndroidManifest.xml.
+[   +5 ms] Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported.
+[        ] Recommendation: remove package="sq.flutter.tflite" from the source AndroidManifest.xml: /home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/android/src/main/AndroidManifest.xml.
+[+1946 ms] > Task :flutter_plugin_android_lifecycle:compileDebugLibraryResources
+[        ] Caching disabled for task ':flutter_plugin_android_lifecycle:compileDebugLibraryResources' because:
+[        ]   Build cache is disabled
+[        ] Task ':flutter_plugin_android_lifecycle:compileDebugLibraryResources' is not up-to-date because:
+[   +2 ms]   No history is available.
+[        ] The input changes require a full rebuild for incremental task ':flutter_plugin_android_lifecycle:compileDebugLibraryResources'.
+[        ] Downloading https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.11.1-12782657/aapt2-8.11.1-12782657.pom to /home/franck/.gradle/.tmp/gradle_download3374274810942207036bin
+[        ] Downloading https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/8.11.1-12782657/aapt2-8.11.1-12782657-linux.jar to /home/franck/.gradle/.tmp/gradle_download16052868866106255066bin
+[        ] Caching disabled for Aapt2Extractor: /home/franck/.gradle/caches/modules-2/files-2.1/com.android.tools.build/aapt2/8.11.1-12782657/475b43546b17fc0cbb9d0bedea1cc79d8a9be17b/aapt2-8.11.1-12782657-linux.jar because:
+[        ]   Build cache is disabled
+[        ]   Caching not enabled.
+[  +98 ms] Build d724068a-65a6-494f-93fb-ec6f0c7e07dc is closed
+[        ] [Incubating] Problems report is available at: file:///home/franck/Documents/M2%20OCC%202026/smart%20DATA-CITY/projet2/cutisia/build/reports/problems/problems-report.html
+[        ] FAILURE: Build failed with an exception.
+[        ] * What went wrong:
+[   +1 ms] Execution failed for task ':tflite_v2:processDebugManifest'.
+[        ] > A failure occurred while executing com.android.build.gradle.tasks.ProcessLibraryManifest$ProcessLibWorkAction
+[        ]    > Incorrect package="sq.flutter.tflite" found in source AndroidManifest.xml: /home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/android/src/main/AndroidManifest.xml.
+[        ]      Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported.
+[        ]      Recommendation: remove package="sq.flutter.tflite" from the source AndroidManifest.xml: /home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/android/src/main/AndroidManifest.xml.
+[        ] * Try:
+[        ] > Run with --debug option to get more log output.
+[        ] > Run with --scan to get full insights.
+[        ] > Get more help at https://help.gradle.org.
+[        ] * Exception is:
+[        ] org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':tflite_v2:processDebugManifest'.
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.lambda$executeIfValid$1(ExecuteActionsTaskExecuter.java:130)
+[        ] 	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:293)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:128)
+[   +3 ms] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+[   +1 ms] 	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+[   +1 ms] 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[   +2 ms] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] Caused by: org.gradle.workers.internal.DefaultWorkerExecutor$WorkExecutionException: A failure occurred while executing com.android.build.gradle.tasks.ProcessLibraryManifest$ProcessLibWorkAction
+[        ] 	at org.gradle.workers.internal.DefaultWorkerExecutor$WorkItemExecution.waitForCompletion(DefaultWorkerExecutor.java:287)
+[   +1 ms] 	at org.gradle.internal.work.DefaultAsyncWorkTracker.lambda$waitForItemsAndGatherFailures$2(DefaultAsyncWorkTracker.java:130)
+[   +1 ms] 	at org.gradle.internal.Factories$1.create(Factories.java:31)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:335)
+[   +1 ms] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLocks(DefaultWorkerLeaseService.java:318)
+[   +1 ms] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withoutLock(DefaultWorkerLeaseService.java:323)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:126)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForItemsAndGatherFailures(DefaultAsyncWorkTracker.java:92)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForAll(DefaultAsyncWorkTracker.java:78)
+[        ] 	at org.gradle.internal.work.DefaultAsyncWorkTracker.waitForCompletion(DefaultAsyncWorkTracker.java:66)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution$3.run(TaskExecution.java:252)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:30)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$1.execute(DefaultBuildOperationRunner.java:27)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.run(DefaultBuildOperationRunner.java:48)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeAction(TaskExecution.java:229)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeActions(TaskExecution.java:212)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.executeWithPreviousOutputFiles(TaskExecution.java:195)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution.execute(TaskExecution.java:162)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.executeInternal(ExecuteStep.java:105)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.access$000(ExecuteStep.java:44)
+[   +1 ms] 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:59)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep$1.call(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+[   +2 ms] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[   +2 ms] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:44)
+[        ] 	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:42)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:55)
+[        ] 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:50)
+[        ] 	at org.gradle.internal.execution.steps.PreCreateOutputParentsStep.execute(PreCreateOutputParentsStep.java:28)
+[        ] 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:67)
+[        ] 	at org.gradle.internal.execution.steps.RemovePreviousOutputsStep.execute(RemovePreviousOutputsStep.java:37)
+[        ] 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:61)
+[        ] 	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:26)
+[        ] 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:69)
+[        ] 	at org.gradle.internal.execution.steps.CaptureOutputsAfterExecutionStep.execute(CaptureOutputsAfterExecutionStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:29)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.executeWithoutCache(BuildCacheStep.java:189)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.lambda$execute$1(BuildCacheStep.java:75)
+[        ] 	at org.gradle.internal.Either$Right.fold(Either.java:175)
+[        ] 	at org.gradle.internal.execution.caching.CachingState.fold(CachingState.java:62)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:73)
+[        ] 	at org.gradle.internal.execution.steps.BuildCacheStep.execute(BuildCacheStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.StoreExecutionStateStep.execute(StoreExecutionStateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$2(SkipUpToDateStep.java:53)
+[        ] 	at java.base/java.util.Optional.orElseGet(Unknown Source)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:53)
+[        ] 	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:35)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:37)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:27)
+[        ] 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:49)
+[        ] 	at org.gradle.internal.execution.steps.ResolveIncrementalCachingStateStep.executeDelegate(ResolveIncrementalCachingStateStep.java:27)
+[        ] 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:71)
+[        ] 	at org.gradle.internal.execution.steps.AbstractResolveCachingStateStep.execute(AbstractResolveCachingStateStep.java:39)
+[        ] 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:65)
+[        ] 	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:107)
+[        ] 	at org.gradle.internal.execution.steps.ValidateStep.execute(ValidateStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:64)
+[        ] 	at org.gradle.internal.execution.steps.AbstractCaptureStateBeforeExecutionStep.execute(AbstractCaptureStateBeforeExecutionStep.java:43)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.executeWithNonEmptySources(AbstractSkipEmptyWorkStep.java:125)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:56)
+[        ] 	at org.gradle.internal.execution.steps.AbstractSkipEmptyWorkStep.execute(AbstractSkipEmptyWorkStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsStartedStep.execute(MarkSnapshottingInputsStartedStep.java:38)
+[        ] 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:36)
+[        ] 	at org.gradle.internal.execution.steps.LoadPreviousExecutionStateStep.execute(LoadPreviousExecutionStateStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:75)
+[        ] 	at org.gradle.internal.execution.steps.HandleStaleOutputsStep.execute(HandleStaleOutputsStep.java:41)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.lambda$execute$0(AssignMutableWorkspaceStep.java:35)
+[        ] 	at org.gradle.api.internal.tasks.execution.TaskExecution$4.withWorkspace(TaskExecution.java:289)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:31)
+[        ] 	at org.gradle.internal.execution.steps.AssignMutableWorkspaceStep.execute(AssignMutableWorkspaceStep.java:22)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:40)
+[        ] 	at org.gradle.internal.execution.steps.ChoosePipelineStep.execute(ChoosePipelineStep.java:23)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.lambda$execute$2(ExecuteWorkBuildOperationFiringStep.java:67)
+[        ] 	at java.base/java.util.Optional.orElseGet(Unknown Source)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:67)
+[        ] 	at org.gradle.internal.execution.steps.ExecuteWorkBuildOperationFiringStep.execute(ExecuteWorkBuildOperationFiringStep.java:39)
+[        ] 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:46)
+[        ] 	at org.gradle.internal.execution.steps.IdentityCacheStep.execute(IdentityCacheStep.java:34)
+[        ] 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:48)
+[        ] 	at org.gradle.internal.execution.steps.IdentifyStep.execute(IdentifyStep.java:35)
+[        ] 	at org.gradle.internal.execution.impl.DefaultExecutionEngine$1.execute(DefaultExecutionEngine.java:64)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeIfValid(ExecuteActionsTaskExecuter.java:127)
+[        ] 	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:116)
+[        ] 	at org.gradle.api.internal.tasks.execution.ProblemsTaskPathTrackingTaskExecuter.execute(ProblemsTaskPathTrackingTaskExecuter.java:41)
+[        ] 	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+[        ] 	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:51)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+[        ] 	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:74)
+[        ] 	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:77)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:55)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:52)
+[        ] 	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:42)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:331)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:318)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.lambda$execute$0(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.internal.operations.CurrentBuildOperationRef.with(CurrentBuildOperationRef.java:85)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:314)
+[        ] 	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:303)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:459)
+[        ] 	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:376)
+[        ] 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:64)
+[        ] 	at org.gradle.internal.concurrent.AbstractManagedExecutor$1.run(AbstractManagedExecutor.java:48)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+[        ] 	at java.base/java.lang.Thread.run(Unknown Source)
+[        ] Caused by: java.lang.RuntimeException: Incorrect package="sq.flutter.tflite" found in source AndroidManifest.xml: /home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/android/src/main/AndroidManifest.xml.
+[        ] Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported.
+[        ] Recommendation: remove package="sq.flutter.tflite" from the source AndroidManifest.xml: /home/franck/.pub-cache/hosted/pub.dev/tflite_v2-1.0.0/android/src/main/AndroidManifest.xml.
+[        ] 	at com.android.manifmerger.ManifestMerger2.merge(ManifestMerger2.java:244)
+[        ] 	at com.android.manifmerger.ManifestMerger2$Invoker.merge(ManifestMerger2.java:2178)
+[        ] 	at com.android.build.gradle.internal.tasks.manifest.ManifestHelperKt.mergeManifests(ManifestHelper.kt:121)
+[        ] 	at com.android.build.gradle.internal.tasks.manifest.ManifestHelperKt.mergeManifests$default(ManifestHelper.kt:46)
+[        ] 	at com.android.build.gradle.tasks.ProcessLibraryManifest$ProcessLibWorkAction.run(ProcessLibraryManifest.kt:154)
+[        ] 	at com.android.build.gradle.internal.profile.ProfileAwareWorkAction.execute(ProfileAwareWorkAction.kt:74)
+[        ] 	at org.gradle.workers.internal.DefaultWorkerServer.execute(DefaultWorkerServer.java:63)
+[        ] 	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:66)
+[        ] 	at org.gradle.workers.internal.NoIsolationWorkerFactory$1$1.create(NoIsolationWorkerFactory.java:62)
+[        ] 	at org.gradle.internal.classloader.ClassLoaderUtils.executeInClassloader(ClassLoaderUtils.java:100)
+[        ] 	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.lambda$execute$0(NoIsolationWorkerFactory.java:62)
+[        ] 	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:44)
+[        ] 	at org.gradle.workers.internal.AbstractWorker$1.call(AbstractWorker.java:41)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:210)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$CallableBuildOperationWorker.execute(DefaultBuildOperationRunner.java:205)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:67)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner$2.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:167)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.execute(DefaultBuildOperationRunner.java:60)
+[        ] 	at org.gradle.internal.operations.DefaultBuildOperationRunner.call(DefaultBuildOperationRunner.java:54)
+[        ] 	at org.gradle.workers.internal.AbstractWorker.executeWrappedInBuildOperation(AbstractWorker.java:41)
+[        ] 	at org.gradle.workers.internal.NoIsolationWorkerFactory$1.execute(NoIsolationWorkerFactory.java:59)
+[        ] 	at org.gradle.workers.internal.DefaultWorkerExecutor.lambda$submitWork$0(DefaultWorkerExecutor.java:174)
+[        ] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[        ] 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runExecution(DefaultConditionalExecutionQueue.java:194)
+[        ] 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.access$700(DefaultConditionalExecutionQueue.java:127)
+[        ] 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner$1.run(DefaultConditionalExecutionQueue.java:169)
+[        ] 	at org.gradle.internal.Factories$1.create(Factories.java:31)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:263)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:127)
+[        ] 	at org.gradle.internal.work.DefaultWorkerLeaseService.runAsWorkerThread(DefaultWorkerLeaseService.java:132)
+[        ] 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.runBatch(DefaultConditionalExecutionQueue.java:164)
+[        ] 	at org.gradle.internal.work.DefaultConditionalExecutionQueue$ExecutionRunner.run(DefaultConditionalExecutionQueue.java:133)
+[        ] 	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+[        ] 	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+[        ] 	... 5 more
+[        ] BUILD FAILED in 15s
+[   +2 ms] Deprecated Gradle features were used in this build, making it incompatible with Gradle 9.0.
+[        ] You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+[        ] For more on this, please refer to https://docs.gradle.org/8.14/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+[        ] 53 actionable tasks: 7 executed, 46 up-to-date
+[ +209 ms] Running Gradle task 'assembleDebug'... (completed in 15.5s)
+[  +13 ms] "flutter apk" took 16,810ms.
+[  +37 ms] Gradle task assembleDebug failed with exit code 1
+[        ] 
+           #0      throwToolExit (package:flutter_tools/src/base/common.dart:34:3)
+           #1      AndroidGradleBuilder.buildGradleApp (package:flutter_tools/src/android/gradle.dart:592:7)
+           <asynchronous suspension>
+           #2      AndroidGradleBuilder.buildApk (package:flutter_tools/src/android/gradle.dart:234:5)
+           <asynchronous suspension>
+           #3      BuildApkCommand.runCommand (package:flutter_tools/src/commands/build_apk.dart:131:5)
+           <asynchronous suspension>
+           #4      FlutterCommand.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command.dart:1590:27)
+           <asynchronous suspension>
+           #5      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #6      CommandRunner.runCommand (package:args/command_runner.dart:212:13)
+           <asynchronous suspension>
+           #7      FlutterCommandRunner.runCommand.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:496:9)
+           <asynchronous suspension>
+           #8      AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #9      FlutterCommandRunner.runCommand (package:flutter_tools/src/runner/flutter_command_runner.dart:431:5)
+           <asynchronous suspension>
+           #10     FlutterCommandRunner.run.<anonymous closure> (package:flutter_tools/src/runner/flutter_command_runner.dart:307:33)
+           <asynchronous suspension>
+           #11     run.<anonymous closure>.<anonymous closure> (package:flutter_tools/runner.dart:104:11)
+           <asynchronous suspension>
+           #12     AppContext.run.<anonymous closure> (package:flutter_tools/src/base/context.dart:154:19)
+           <asynchronous suspension>
+           #13     main (package:flutter_tools/executable.dart:103:3)
+           <asynchronous suspension>
+
+
+[        ] Running 1 shutdown hook
+[   +3 ms] Shutdown hooks complete
+[ +265 ms] exiting with code 1

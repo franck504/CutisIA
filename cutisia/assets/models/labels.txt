@@ -1,0 +1,8 @@
+Acne_Rosacea
+Actinic_Keratosis
+Atopic_Dermatitis
+Eczema
+Vascular_Tumors
+leprosy
+me_Melanoma
+mk_Monkeypox
